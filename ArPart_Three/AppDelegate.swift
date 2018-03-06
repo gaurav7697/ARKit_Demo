@@ -18,7 +18,7 @@ class AppDelegate: UIResponder {
     }
 }
 
-//Delegates
+//Delegates Method
 extension AppDelegate: UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
