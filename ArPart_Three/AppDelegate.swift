@@ -13,6 +13,7 @@ class AppDelegate: UIResponder {
 
     var window: UIWindow?
     static var shared:AppDelegate {
+        print("test")
         return UIApplication.shared.delegate as! AppDelegate
     }
 }
