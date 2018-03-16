@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E60BCC3D205B87BA00618DF6 /* DistanceMeasureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60BCC3C205B87BA00618DF6 /* DistanceMeasureVC.swift */; };
+		E60BCC3F205B99F500618DF6 /* MiloDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60BCC3E205B99F500618DF6 /* MiloDemo.swift */; };
 		E6125C1420358C6A00447731 /* DrawLineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6125C1320358C6A00447731 /* DrawLineVC.swift */; };
 		E634D92C202DB1A000C55A15 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634D92B202DB1A000C55A15 /* CategoriesVC.swift */; };
 		E634D92E202DB50400C55A15 /* SolarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E634D92D202DB50400C55A15 /* SolarVC.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E60BCC3C205B87BA00618DF6 /* DistanceMeasureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasureVC.swift; sourceTree = "<group>"; };
+		E60BCC3E205B99F500618DF6 /* MiloDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiloDemo.swift; sourceTree = "<group>"; };
 		E6125C1320358C6A00447731 /* DrawLineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawLineVC.swift; sourceTree = "<group>"; };
 		E634D92B202DB1A000C55A15 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
 		E634D92D202DB50400C55A15 /* SolarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarVC.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				E6125C1320358C6A00447731 /* DrawLineVC.swift */,
 				E67FBA6B203AB16000E90B60 /* HitTestVC.swift */,
 				E67FBA6F203ADD0700E90B60 /* PlaceObjectVC.swift */,
+				E60BCC3C205B87BA00618DF6 /* DistanceMeasureVC.swift */,
+				E60BCC3E205B99F500618DF6 /* MiloDemo.swift */,
 			);
 			path = ArPart_Three;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 				E67FBA72203ADDC600E90B60 /* itemCellCollectionViewCell.swift in Sources */,
 				E67FBA6C203AB16000E90B60 /* HitTestVC.swift in Sources */,
 				E66AE7FF20048A37000E969C /* ViewController.swift in Sources */,
+				E60BCC3D205B87BA00618DF6 /* DistanceMeasureVC.swift in Sources */,
 				E634D92E202DB50400C55A15 /* SolarVC.swift in Sources */,
+				E60BCC3F205B99F500618DF6 /* MiloDemo.swift in Sources */,
 				E67FBA70203ADD0700E90B60 /* PlaceObjectVC.swift in Sources */,
 				E66AE7FD20048A37000E969C /* AppDelegate.swift in Sources */,
 			);

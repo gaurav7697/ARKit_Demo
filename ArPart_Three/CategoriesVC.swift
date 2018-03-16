@@ -14,12 +14,14 @@ class CategoriesVC: UIViewController {
     var arrCat : [String] = Array()
     override func viewDidLoad() {
         super.viewDidLoad()
-        arrCat.append("Scenview Configuration")
-        arrCat.append("Euler Angles")
+//        arrCat.append("Scenview Configuration")
+//        arrCat.append("Euler Angles")
         arrCat.append("Rotations")
         arrCat.append("Draw 3D")
         arrCat.append("Hit Test")
         arrCat.append("3D Objects")
+        arrCat.append("Distance Measure")
+        //arrCat.append("Milo Demo")
         // Do any additional setup after loading the view.
     }
 
@@ -53,26 +55,34 @@ extension CategoriesVC : UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        if indexPath.row == 1{
-            let ViewController = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-            self.navigationController?.pushViewController(ViewController, animated: true)
-        }
-        if indexPath.row == 2{
+//        if indexPath.row == 1{
+//            let ViewController = storyboard?.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+//            self.navigationController?.pushViewController(ViewController, animated: true)
+//        }
+        if indexPath.row == 0{
             let ViewController = storyboard?.instantiateViewController(withIdentifier: "SolarVC") as! SolarVC
             self.navigationController?.pushViewController(ViewController, animated: true)
         }
-        if indexPath.row == 3{
+        if indexPath.row == 1{
             let ViewController = storyboard?.instantiateViewController(withIdentifier: "DrawLineVC") as! DrawLineVC
             self.navigationController?.pushViewController(ViewController, animated: true)
         }
-        if indexPath.row == 4{
+        if indexPath.row == 2{
             let ViewController = storyboard?.instantiateViewController(withIdentifier: "HitTestVC") as! HitTestVC
             self.navigationController?.pushViewController(ViewController, animated: true)
         }
-        if indexPath.row == 5{
+        if indexPath.row == 3{
             let ViewController = storyboard?.instantiateViewController(withIdentifier: "PlaceObjectVC") as! PlaceObjectVC
             self.navigationController?.pushViewController(ViewController, animated: true)
         }
+        if indexPath.row == 4{
+            let ViewController = storyboard?.instantiateViewController(withIdentifier: "DistanceMeasureVC") as! DistanceMeasureVC
+            self.navigationController?.pushViewController(ViewController, animated: true)
+        }
+//        if indexPath.row == 7{
+//            let ViewController = storyboard?.instantiateViewController(withIdentifier: "MiloDemo") as! MiloDemo
+//            self.navigationController?.pushViewController(ViewController, animated: true)
+//        }
         
     }
     
